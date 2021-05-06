@@ -1,8 +1,14 @@
 <template>
-  <form @submit="onSubmit" class="add-form">
+  <form 
+    @submit="onSubmit" 
+    class="add-form">
     <div class="form-control">
       <label>Task</label>
-      <input type="text" v-model="text" name="text" placeholder="Add Task" />
+      <input 
+        type="text" 
+        v-model="text" 
+        name="text" 
+        placeholder="Add Task" />
     </div>
     <div class="form-control">
       <label>Day & Time</label>
@@ -15,10 +21,16 @@
     </div>
     <div class="form-control form-control-check">
       <label>Set Reminder</label>
-      <input type="checkbox" v-model="reminder" name="reminder" />
+      <input 
+        type="checkbox" 
+        v-model="reminder" 
+        name="reminder" />
     </div>
 
-    <input type="submit" value="Save Task" class="btn btn-block" />
+    <input 
+      type="submit" 
+      value="Save Task" 
+      class="btn btn-block" />
   </form>
 </template>
 
