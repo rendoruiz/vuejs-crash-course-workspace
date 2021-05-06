@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "install-serve": "npm i -g serve",
-    "serve-dist": "serve -s dist"
+    "serve-dist": "serve -s dist",
+    "install-jsonserver": "npm i json-server",
+    "backend" : "json-server --watch db.json --port 5000"
   },
   "dependencies": {
     "core-js": "^3.6.5",
